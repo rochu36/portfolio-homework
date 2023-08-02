@@ -6,6 +6,7 @@
 
 body {
   margin-top: 100px;
+  margin-bottom: 50px;
 }
 
 h1,
@@ -43,8 +44,8 @@ p {
 }
 
 .primary-link {
-  border-radius: 4px;
-  padding: 20px 15px;
+  border-radius: 20px;
+  padding: 20px;
   text-decoration: none;
   text-transform: capitalize;
   background: var(--primary-color);
@@ -53,8 +54,8 @@ p {
 }
 
 .secondary-link {
-  border-radius: 4px;
-  padding: 20px 15px;
+  border-radius: 20px;
+  padding: 20px;
   text-decoration: none;
   text-transform: capitalize;
   color: var(--primary-color);
@@ -85,4 +86,25 @@ p {
 
 .email-link:hover {
   text-decoration: underline;
+}
+
+@media (max-width: 575.98px) {
+  h1 {
+    font-size: 48px;
+  }
+
+  h2 {
+    font-size: 32px;
+    text-align: center;
+  }
+
+  p {
+    text-align: center;
+  }
+
+  .project-link {
+    display: block;
+    margin: 0 20px;
+    text-align: center;
+  }
 }
